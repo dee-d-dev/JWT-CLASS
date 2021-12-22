@@ -1,3 +1,54 @@
-body{
-    background-color: cadetblue;
+body {
+  background-color: rgb(227, 236, 236);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.body {
+  /* text-align: center; */
+  margin-top: 4rem;
+  position: relative;
+}
+
+.log_reg {
+  width: 20rem;
+  margin: 0 35%;
+  background-color: wheat;
+  padding: 1rem 2rem;
+}
+
+.form input {
+  width: 98%;
+  padding: 0.5rem 0.4rem;
+  font-size: 1.1rem;
+  color: grey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.input {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: rgb(240, 154, 233);
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.dashboard {
+  width: 20rem;
+  margin: 2rem 35%;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.dashboard button {
+  width: 100%;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
 }

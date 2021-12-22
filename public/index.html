@@ -11,15 +11,22 @@
     <div class="body">
       <div class="log_reg">
         <h3>Login/Register</h3>
-        <form action="">
-          <label for="username">Username</label>
-          <input type="text" name="username" id="" />
-          <label for="password">Password</label>
-          <input type="password" name="password" id="" />
+        <div class="form">
+          <form action="http://localhost:7000/api/v1/dashboard">
+            <div class="input">
+              <label for="username">Username</label><br />
+              <input type="text" name="username" id="" />
+            </div>
 
-          <button type="submit">Submit</button>
-          <p class="error_msg"></p>
-        </form>
+            <div class="input">
+              <label for="password">Password</label><br />
+              <input type="password" name="password" id="" />
+            </div>
+
+            <button type="submit" method="POST">Submit</button>
+            <p class="error_msg"></p>
+          </form>
+        </div>
       </div>
 
       <div class="dashboard">
